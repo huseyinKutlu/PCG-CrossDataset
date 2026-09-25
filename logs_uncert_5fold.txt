@@ -1,0 +1,229 @@
+======================================================================
+BELIRSIZLIK 5-FOLD SAGLAMLIK | folds=[0, 1, 2, 3, 4]
+======================================================================
+
+############################################################
+# FOLD 0
+############################################################
+[fold 0] egitim...
+ensemble seed142 (2/5): ic W.Acc=0.6793
+  ensemble seed242 (3/5): ic W.Acc=0.6831
+  ensemble seed342 (4/5): ic W.Acc=0.6756
+  ensemble seed442 (5/5): ic W.Acc=0.6808
+  EDL: ic W.Acc=0.7237
+  KAN seed42 (1/5): ic W.Acc=0.6920
+  KAN seed142 (2/5): ic W.Acc=0.6889
+  KAN seed242 (3/5): ic W.Acc=0.6976
+  KAN seed342 (4/5): ic W.Acc=0.6924
+  KAN seed442 (5/5): ic W.Acc=0.6959
+  [OK] tum modeller egitildi.
+
+Rapor: /home/hkutlu/Desktop/pcg_project/reports/uncertainty_benchmark_f0.txt
+=== TAMAMLANDI ===
+
+[fold 0] degerlendirme...
+)
+======================================================================
+
+[DEGERLENDIRME] 4 yontem, 4 metrik
+
+======================================================================
+OZET TABLO (4 yontem x 4 metrik)
+======================================================================
+Yontem           ECE   Sel@30%  OOD-fark  Unk-hiz
+--------------------------------------------------
+Ensemble      0.1110    0.8155   +0.0543     EVET
+MC-Dropout    0.1211    0.7725   +0.0964    hayir
+Evidential    0.0841    0.9001   -0.0642     EVET
+KAN+Ens       0.0844    0.8272   +0.0470     EVET
+
+OOD-fark: dis-ic belirsizlik (+ ise OOD-duyarli, - ise yanlis guven)
+Sel@30%: en belirsiz %30 reddedilince dogruluk
+
+Rapor: /home/hkutlu/Desktop/pcg_project/reports/uncertainty_benchmark_f0.txt
+=== TAMAMLANDI ===
+
+
+############################################################
+# FOLD 1
+############################################################
+[fold 1] egitim...
+ensemble seed142 (2/5): ic W.Acc=0.7720
+  ensemble seed242 (3/5): ic W.Acc=0.7692
+  ensemble seed342 (4/5): ic W.Acc=0.7577
+  ensemble seed442 (5/5): ic W.Acc=0.7787
+  EDL: ic W.Acc=0.8224
+  KAN seed42 (1/5): ic W.Acc=0.7767
+  KAN seed142 (2/5): ic W.Acc=0.7544
+  KAN seed242 (3/5): ic W.Acc=0.7682
+  KAN seed342 (4/5): ic W.Acc=0.8011
+  KAN seed442 (5/5): ic W.Acc=0.7719
+  [OK] tum modeller egitildi.
+
+Rapor: /home/hkutlu/Desktop/pcg_project/reports/uncertainty_benchmark_f1.txt
+=== TAMAMLANDI ===
+
+[fold 1] degerlendirme...
+)
+======================================================================
+
+[DEGERLENDIRME] 4 yontem, 4 metrik
+
+======================================================================
+OZET TABLO (4 yontem x 4 metrik)
+======================================================================
+Yontem           ECE   Sel@30%  OOD-fark  Unk-hiz
+--------------------------------------------------
+Ensemble      0.1467    0.8925   +0.1359     EVET
+MC-Dropout    0.1143    0.8233   +0.0896     EVET
+Evidential    0.1453    0.9462   -0.0533     EVET
+KAN+Ens       0.0997    0.8737   +0.1000     EVET
+
+OOD-fark: dis-ic belirsizlik (+ ise OOD-duyarli, - ise yanlis guven)
+Sel@30%: en belirsiz %30 reddedilince dogruluk
+
+Rapor: /home/hkutlu/Desktop/pcg_project/reports/uncertainty_benchmark_f1.txt
+=== TAMAMLANDI ===
+
+
+############################################################
+# FOLD 2
+############################################################
+[fold 2] egitim...
+ensemble seed142 (2/5): ic W.Acc=0.7356
+  ensemble seed242 (3/5): ic W.Acc=0.7273
+  ensemble seed342 (4/5): ic W.Acc=0.7118
+  ensemble seed442 (5/5): ic W.Acc=0.7422
+  EDL: ic W.Acc=0.7658
+  KAN seed42 (1/5): ic W.Acc=0.7492
+  KAN seed142 (2/5): ic W.Acc=0.7508
+  KAN seed242 (3/5): ic W.Acc=0.7200
+  KAN seed342 (4/5): ic W.Acc=0.7221
+  KAN seed442 (5/5): ic W.Acc=0.7267
+  [OK] tum modeller egitildi.
+
+Rapor: /home/hkutlu/Desktop/pcg_project/reports/uncertainty_benchmark_f2.txt
+=== TAMAMLANDI ===
+
+[fold 2] degerlendirme...
+)
+======================================================================
+
+[DEGERLENDIRME] 4 yontem, 4 metrik
+
+======================================================================
+OZET TABLO (4 yontem x 4 metrik)
+======================================================================
+Yontem           ECE   Sel@30%  OOD-fark  Unk-hiz
+--------------------------------------------------
+Ensemble      0.1299    0.8659   +0.1088     EVET
+MC-Dropout    0.0862    0.8204   +0.1174     EVET
+Evidential    0.1216    0.9039   -0.0387     EVET
+KAN+Ens       0.1264    0.8494   +0.0795     EVET
+
+OOD-fark: dis-ic belirsizlik (+ ise OOD-duyarli, - ise yanlis guven)
+Sel@30%: en belirsiz %30 reddedilince dogruluk
+
+Rapor: /home/hkutlu/Desktop/pcg_project/reports/uncertainty_benchmark_f2.txt
+=== TAMAMLANDI ===
+
+
+############################################################
+# FOLD 3
+############################################################
+[fold 3] egitim...
+ensemble seed142 (2/5): ic W.Acc=0.6827
+  ensemble seed242 (3/5): ic W.Acc=0.6839
+  ensemble seed342 (4/5): ic W.Acc=0.6838
+  ensemble seed442 (5/5): ic W.Acc=0.6630
+  EDL: ic W.Acc=0.6770
+  KAN seed42 (1/5): ic W.Acc=0.6747
+  KAN seed142 (2/5): ic W.Acc=0.6807
+  KAN seed242 (3/5): ic W.Acc=0.6747
+  KAN seed342 (4/5): ic W.Acc=0.6802
+  KAN seed442 (5/5): ic W.Acc=0.6857
+  [OK] tum modeller egitildi.
+
+Rapor: /home/hkutlu/Desktop/pcg_project/reports/uncertainty_benchmark_f3.txt
+=== TAMAMLANDI ===
+
+[fold 3] degerlendirme...
+)
+======================================================================
+
+[DEGERLENDIRME] 4 yontem, 4 metrik
+
+======================================================================
+OZET TABLO (4 yontem x 4 metrik)
+======================================================================
+Yontem           ECE   Sel@30%  OOD-fark  Unk-hiz
+--------------------------------------------------
+Ensemble      0.1354    0.8552   +0.0750     EVET
+MC-Dropout    0.1190    0.8120   +0.1007    hayir
+Evidential    0.0213    0.8842   +0.0369     EVET
+KAN+Ens       0.1070    0.8015   +0.0704     EVET
+
+OOD-fark: dis-ic belirsizlik (+ ise OOD-duyarli, - ise yanlis guven)
+Sel@30%: en belirsiz %30 reddedilince dogruluk
+
+Rapor: /home/hkutlu/Desktop/pcg_project/reports/uncertainty_benchmark_f3.txt
+=== TAMAMLANDI ===
+
+
+############################################################
+# FOLD 4
+############################################################
+[fold 4] egitim...
+ensemble seed142 (2/5): ic W.Acc=0.7380
+  ensemble seed242 (3/5): ic W.Acc=0.7452
+  ensemble seed342 (4/5): ic W.Acc=0.7455
+  ensemble seed442 (5/5): ic W.Acc=0.7410
+  EDL: ic W.Acc=0.7733
+  KAN seed42 (1/5): ic W.Acc=0.7483
+  KAN seed142 (2/5): ic W.Acc=0.7488
+  KAN seed242 (3/5): ic W.Acc=0.7361
+  KAN seed342 (4/5): ic W.Acc=0.7436
+  KAN seed442 (5/5): ic W.Acc=0.7579
+  [OK] tum modeller egitildi.
+
+Rapor: /home/hkutlu/Desktop/pcg_project/reports/uncertainty_benchmark_f4.txt
+=== TAMAMLANDI ===
+
+[fold 4] degerlendirme...
+)
+======================================================================
+
+[DEGERLENDIRME] 4 yontem, 4 metrik
+
+======================================================================
+OZET TABLO (4 yontem x 4 metrik)
+======================================================================
+Yontem           ECE   Sel@30%  OOD-fark  Unk-hiz
+--------------------------------------------------
+Ensemble      0.1405    0.8743   +0.1221     EVET
+MC-Dropout    0.1294    0.8440   +0.1357    hayir
+Evidential    0.1260    0.9162   +0.0068     EVET
+KAN+Ens       0.1150    0.8122   +0.1286     EVET
+
+OOD-fark: dis-ic belirsizlik (+ ise OOD-duyarli, - ise yanlis guven)
+Sel@30%: en belirsiz %30 reddedilince dogruluk
+
+Rapor: /home/hkutlu/Desktop/pcg_project/reports/uncertainty_benchmark_f4.txt
+=== TAMAMLANDI ===
+
+
+======================================================================
+5-FOLD OZET (ortalama +- std, n=5 fold)
+======================================================================
+Yontem                   ECE         Sel@30%        OOD-fark   Unk-hiz
+----------------------------------------------------------------------
+Ensemble       0.133±0.012    0.861±0.026    0.099±0.030 5/        5
+MC-Dropout     0.114±0.015    0.814±0.023    0.108±0.017 2/        5
+Evidential     0.100±0.044    0.910±0.021   -0.022±0.038 5/        5
+KAN+Ens        0.106±0.014    0.833±0.026    0.085±0.028 5/        5
+
+Unk-hiz: kac fold'da Unknown en yuksek belirsizligi aldi
+OOD-fark: + ise OOD-duyarli, - ise yanlis guven (EDL'de negatif beklenir)
+
+Rapor: /home/hkutlu/Desktop/pcg_project/reports/uncertainty_5fold.txt
+=== TAMAMLANDI ===
